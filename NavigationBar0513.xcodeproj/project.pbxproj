@@ -9,21 +9,81 @@
 /* Begin PBXBuildFile section */
 		CEDC90A8246BC84400798733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC90A7246BC84400798733 /* AppDelegate.swift */; };
 		CEDC90AA246BC84400798733 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC90A9246BC84400798733 /* SceneDelegate.swift */; };
-		CEDC90AC246BC84400798733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC90AB246BC84400798733 /* ViewController.swift */; };
+		CEDC90AC246BC84400798733 /* Bar01VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC90AB246BC84400798733 /* Bar01VC.swift */; };
 		CEDC90AF246BC84400798733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90AD246BC84400798733 /* Main.storyboard */; };
 		CEDC90B1246BC84600798733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90B0246BC84600798733 /* Assets.xcassets */; };
 		CEDC90B4246BC84600798733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90B2246BC84600798733 /* LaunchScreen.storyboard */; };
+		CEDC90E5246BCE5D00798733 /* iconsettings.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90BE246BCE5B00798733 /* iconsettings.png */; };
+		CEDC90E6246BCE5D00798733 /* iconsettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90BF246BCE5B00798733 /* iconsettings@2x.png */; };
+		CEDC90E7246BCE5D00798733 /* iconsettings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90C0246BCE5B00798733 /* iconsettings@3x.png */; };
+		CEDC90E8246BCE5D00798733 /* iconweather.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90C2246BCE5B00798733 /* iconweather.png */; };
+		CEDC90E9246BCE5D00798733 /* iconweather@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90C3246BCE5B00798733 /* iconweather@3x.png */; };
+		CEDC90EA246BCE5D00798733 /* iconweather@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90C4246BCE5B00798733 /* iconweather@2x.png */; };
+		CEDC90EB246BCE5D00798733 /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90C6246BCE5B00798733 /* tabbar@2x.png */; };
+		CEDC90EC246BCE5D00798733 /* tabbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90C7246BCE5B00798733 /* tabbar@3x.png */; };
+		CEDC90ED246BCE5D00798733 /* tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90C8246BCE5B00798733 /* tabbar.png */; };
+		CEDC90EE246BCE5D00798733 /* husky@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90CA246BCE5B00798733 /* husky@2x.png */; };
+		CEDC90EF246BCE5D00798733 /* husky@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90CB246BCE5B00798733 /* husky@3x.png */; };
+		CEDC90F0246BCE5D00798733 /* husky.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90CC246BCE5B00798733 /* husky.png */; };
+		CEDC90F1246BCE5D00798733 /* lake.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90CE246BCE5C00798733 /* lake.png */; };
+		CEDC90F2246BCE5D00798733 /* lake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90CF246BCE5C00798733 /* lake@2x.png */; };
+		CEDC90F3246BCE5D00798733 /* lake@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90D0246BCE5C00798733 /* lake@3x.png */; };
+		CEDC90F4246BCE5D00798733 /* door@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90D2246BCE5C00798733 /* door@2x.png */; };
+		CEDC90F5246BCE5D00798733 /* door.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90D3246BCE5C00798733 /* door.png */; };
+		CEDC90F6246BCE5D00798733 /* door@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90D4246BCE5C00798733 /* door@3x.png */; };
+		CEDC90F7246BCE5D00798733 /* backgroundbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90D6246BCE5C00798733 /* backgroundbar@2x.png */; };
+		CEDC90F8246BCE5D00798733 /* backgroundbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90D7246BCE5C00798733 /* backgroundbar@3x.png */; };
+		CEDC90F9246BCE5D00798733 /* backgroundbar.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90D8246BCE5C00798733 /* backgroundbar.png */; };
+		CEDC90FA246BCE5D00798733 /* clouds@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90DA246BCE5C00798733 /* clouds@2x.jpg */; };
+		CEDC90FB246BCE5D00798733 /* clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90DB246BCE5C00798733 /* clouds.jpg */; };
+		CEDC90FC246BCE5D00798733 /* clouds@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90DC246BCE5C00798733 /* clouds@3x.jpg */; };
+		CEDC90FD246BCE5D00798733 /* buttonplus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90DE246BCE5C00798733 /* buttonplus@2x.png */; };
+		CEDC90FE246BCE5D00798733 /* buttonplus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90DF246BCE5C00798733 /* buttonplus@3x.png */; };
+		CEDC90FF246BCE5D00798733 /* buttonplus.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90E0246BCE5C00798733 /* buttonplus.png */; };
+		CEDC9100246BCE5D00798733 /* buttonpluslandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90E2246BCE5D00798733 /* buttonpluslandscape@2x.png */; };
+		CEDC9101246BCE5D00798733 /* buttonpluslandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90E3246BCE5D00798733 /* buttonpluslandscape.png */; };
+		CEDC9102246BCE5D00798733 /* buttonpluslandscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90E4246BCE5D00798733 /* buttonpluslandscape@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEDC90A4246BC84400798733 /* NavigationBar0513.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBar0513.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDC90A7246BC84400798733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDC90A9246BC84400798733 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEDC90AB246BC84400798733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEDC90AB246BC84400798733 /* Bar01VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar01VC.swift; sourceTree = "<group>"; };
 		CEDC90AE246BC84400798733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEDC90B0246BC84600798733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDC90B3246BC84600798733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDC90B5246BC84600798733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDC90BE246BCE5B00798733 /* iconsettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconsettings.png; sourceTree = "<group>"; };
+		CEDC90BF246BCE5B00798733 /* iconsettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconsettings@2x.png"; sourceTree = "<group>"; };
+		CEDC90C0246BCE5B00798733 /* iconsettings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconsettings@3x.png"; sourceTree = "<group>"; };
+		CEDC90C2246BCE5B00798733 /* iconweather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconweather.png; sourceTree = "<group>"; };
+		CEDC90C3246BCE5B00798733 /* iconweather@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconweather@3x.png"; sourceTree = "<group>"; };
+		CEDC90C4246BCE5B00798733 /* iconweather@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconweather@2x.png"; sourceTree = "<group>"; };
+		CEDC90C6246BCE5B00798733 /* tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@2x.png"; sourceTree = "<group>"; };
+		CEDC90C7246BCE5B00798733 /* tabbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@3x.png"; sourceTree = "<group>"; };
+		CEDC90C8246BCE5B00798733 /* tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar.png; sourceTree = "<group>"; };
+		CEDC90CA246BCE5B00798733 /* husky@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "husky@2x.png"; sourceTree = "<group>"; };
+		CEDC90CB246BCE5B00798733 /* husky@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "husky@3x.png"; sourceTree = "<group>"; };
+		CEDC90CC246BCE5B00798733 /* husky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = husky.png; sourceTree = "<group>"; };
+		CEDC90CE246BCE5C00798733 /* lake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lake.png; sourceTree = "<group>"; };
+		CEDC90CF246BCE5C00798733 /* lake@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lake@2x.png"; sourceTree = "<group>"; };
+		CEDC90D0246BCE5C00798733 /* lake@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lake@3x.png"; sourceTree = "<group>"; };
+		CEDC90D2246BCE5C00798733 /* door@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "door@2x.png"; sourceTree = "<group>"; };
+		CEDC90D3246BCE5C00798733 /* door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door.png; sourceTree = "<group>"; };
+		CEDC90D4246BCE5C00798733 /* door@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "door@3x.png"; sourceTree = "<group>"; };
+		CEDC90D6246BCE5C00798733 /* backgroundbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundbar@2x.png"; sourceTree = "<group>"; };
+		CEDC90D7246BCE5C00798733 /* backgroundbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundbar@3x.png"; sourceTree = "<group>"; };
+		CEDC90D8246BCE5C00798733 /* backgroundbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundbar.png; sourceTree = "<group>"; };
+		CEDC90DA246BCE5C00798733 /* clouds@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "clouds@2x.jpg"; sourceTree = "<group>"; };
+		CEDC90DB246BCE5C00798733 /* clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clouds.jpg; sourceTree = "<group>"; };
+		CEDC90DC246BCE5C00798733 /* clouds@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "clouds@3x.jpg"; sourceTree = "<group>"; };
+		CEDC90DE246BCE5C00798733 /* buttonplus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonplus@2x.png"; sourceTree = "<group>"; };
+		CEDC90DF246BCE5C00798733 /* buttonplus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonplus@3x.png"; sourceTree = "<group>"; };
+		CEDC90E0246BCE5C00798733 /* buttonplus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonplus.png; sourceTree = "<group>"; };
+		CEDC90E2246BCE5D00798733 /* buttonpluslandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonpluslandscape@2x.png"; sourceTree = "<group>"; };
+		CEDC90E3246BCE5D00798733 /* buttonpluslandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonpluslandscape.png; sourceTree = "<group>"; };
+		CEDC90E4246BCE5D00798733 /* buttonpluslandscape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonpluslandscape@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +118,123 @@
 			children = (
 				CEDC90A7246BC84400798733 /* AppDelegate.swift */,
 				CEDC90A9246BC84400798733 /* SceneDelegate.swift */,
-				CEDC90AB246BC84400798733 /* ViewController.swift */,
+				CEDC90AB246BC84400798733 /* Bar01VC.swift */,
 				CEDC90AD246BC84400798733 /* Main.storyboard */,
 				CEDC90B0246BC84600798733 /* Assets.xcassets */,
+				CEDC90D5246BCE5C00798733 /* backgroundbar */,
+				CEDC90DD246BCE5C00798733 /* buttonplus */,
+				CEDC90E1246BCE5D00798733 /* buttonpluslandscape */,
+				CEDC90D9246BCE5C00798733 /* clouds */,
+				CEDC90D1246BCE5C00798733 /* door */,
+				CEDC90C9246BCE5B00798733 /* husky */,
+				CEDC90BD246BCE5B00798733 /* iconsettings */,
+				CEDC90C1246BCE5B00798733 /* iconweather */,
+				CEDC90CD246BCE5C00798733 /* lake */,
+				CEDC90C5246BCE5B00798733 /* tabbar */,
 				CEDC90B2246BC84600798733 /* LaunchScreen.storyboard */,
 				CEDC90B5246BC84600798733 /* Info.plist */,
 			);
 			path = NavigationBar0513;
+			sourceTree = "<group>";
+		};
+		CEDC90BD246BCE5B00798733 /* iconsettings */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC90BE246BCE5B00798733 /* iconsettings.png */,
+				CEDC90BF246BCE5B00798733 /* iconsettings@2x.png */,
+				CEDC90C0246BCE5B00798733 /* iconsettings@3x.png */,
+			);
+			path = iconsettings;
+			sourceTree = "<group>";
+		};
+		CEDC90C1246BCE5B00798733 /* iconweather */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC90C2246BCE5B00798733 /* iconweather.png */,
+				CEDC90C3246BCE5B00798733 /* iconweather@3x.png */,
+				CEDC90C4246BCE5B00798733 /* iconweather@2x.png */,
+			);
+			path = iconweather;
+			sourceTree = "<group>";
+		};
+		CEDC90C5246BCE5B00798733 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC90C6246BCE5B00798733 /* tabbar@2x.png */,
+				CEDC90C7246BCE5B00798733 /* tabbar@3x.png */,
+				CEDC90C8246BCE5B00798733 /* tabbar.png */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		CEDC90C9246BCE5B00798733 /* husky */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC90CA246BCE5B00798733 /* husky@2x.png */,
+				CEDC90CB246BCE5B00798733 /* husky@3x.png */,
+				CEDC90CC246BCE5B00798733 /* husky.png */,
+			);
+			path = husky;
+			sourceTree = "<group>";
+		};
+		CEDC90CD246BCE5C00798733 /* lake */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC90CE246BCE5C00798733 /* lake.png */,
+				CEDC90CF246BCE5C00798733 /* lake@2x.png */,
+				CEDC90D0246BCE5C00798733 /* lake@3x.png */,
+			);
+			path = lake;
+			sourceTree = "<group>";
+		};
+		CEDC90D1246BCE5C00798733 /* door */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC90D2246BCE5C00798733 /* door@2x.png */,
+				CEDC90D3246BCE5C00798733 /* door.png */,
+				CEDC90D4246BCE5C00798733 /* door@3x.png */,
+			);
+			path = door;
+			sourceTree = "<group>";
+		};
+		CEDC90D5246BCE5C00798733 /* backgroundbar */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC90D6246BCE5C00798733 /* backgroundbar@2x.png */,
+				CEDC90D7246BCE5C00798733 /* backgroundbar@3x.png */,
+				CEDC90D8246BCE5C00798733 /* backgroundbar.png */,
+			);
+			path = backgroundbar;
+			sourceTree = "<group>";
+		};
+		CEDC90D9246BCE5C00798733 /* clouds */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC90DA246BCE5C00798733 /* clouds@2x.jpg */,
+				CEDC90DB246BCE5C00798733 /* clouds.jpg */,
+				CEDC90DC246BCE5C00798733 /* clouds@3x.jpg */,
+			);
+			path = clouds;
+			sourceTree = "<group>";
+		};
+		CEDC90DD246BCE5C00798733 /* buttonplus */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC90DE246BCE5C00798733 /* buttonplus@2x.png */,
+				CEDC90DF246BCE5C00798733 /* buttonplus@3x.png */,
+				CEDC90E0246BCE5C00798733 /* buttonplus.png */,
+			);
+			path = buttonplus;
+			sourceTree = "<group>";
+		};
+		CEDC90E1246BCE5D00798733 /* buttonpluslandscape */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC90E2246BCE5D00798733 /* buttonpluslandscape@2x.png */,
+				CEDC90E3246BCE5D00798733 /* buttonpluslandscape.png */,
+				CEDC90E4246BCE5D00798733 /* buttonpluslandscape@3x.png */,
+			);
+			path = buttonpluslandscape;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +295,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDC90F8246BCE5D00798733 /* backgroundbar@3x.png in Resources */,
+				CEDC90F4246BCE5D00798733 /* door@2x.png in Resources */,
+				CEDC90FA246BCE5D00798733 /* clouds@2x.jpg in Resources */,
 				CEDC90B4246BC84600798733 /* LaunchScreen.storyboard in Resources */,
+				CEDC90F2246BCE5D00798733 /* lake@2x.png in Resources */,
+				CEDC90ED246BCE5D00798733 /* tabbar.png in Resources */,
+				CEDC90E9246BCE5D00798733 /* iconweather@3x.png in Resources */,
+				CEDC9100246BCE5D00798733 /* buttonpluslandscape@2x.png in Resources */,
+				CEDC90F3246BCE5D00798733 /* lake@3x.png in Resources */,
+				CEDC90E7246BCE5D00798733 /* iconsettings@3x.png in Resources */,
+				CEDC90E6246BCE5D00798733 /* iconsettings@2x.png in Resources */,
+				CEDC90EE246BCE5D00798733 /* husky@2x.png in Resources */,
+				CEDC90EC246BCE5D00798733 /* tabbar@3x.png in Resources */,
+				CEDC90F0246BCE5D00798733 /* husky.png in Resources */,
+				CEDC90F5246BCE5D00798733 /* door.png in Resources */,
+				CEDC90F1246BCE5D00798733 /* lake.png in Resources */,
+				CEDC90E5246BCE5D00798733 /* iconsettings.png in Resources */,
 				CEDC90B1246BC84600798733 /* Assets.xcassets in Resources */,
+				CEDC90EB246BCE5D00798733 /* tabbar@2x.png in Resources */,
+				CEDC9102246BCE5D00798733 /* buttonpluslandscape@3x.png in Resources */,
+				CEDC90F9246BCE5D00798733 /* backgroundbar.png in Resources */,
+				CEDC90FE246BCE5D00798733 /* buttonplus@3x.png in Resources */,
+				CEDC9101246BCE5D00798733 /* buttonpluslandscape.png in Resources */,
 				CEDC90AF246BC84400798733 /* Main.storyboard in Resources */,
+				CEDC90E8246BCE5D00798733 /* iconweather.png in Resources */,
+				CEDC90EF246BCE5D00798733 /* husky@3x.png in Resources */,
+				CEDC90FD246BCE5D00798733 /* buttonplus@2x.png in Resources */,
+				CEDC90EA246BCE5D00798733 /* iconweather@2x.png in Resources */,
+				CEDC90FB246BCE5D00798733 /* clouds.jpg in Resources */,
+				CEDC90F7246BCE5D00798733 /* backgroundbar@2x.png in Resources */,
+				CEDC90FF246BCE5D00798733 /* buttonplus.png in Resources */,
+				CEDC90FC246BCE5D00798733 /* clouds@3x.jpg in Resources */,
+				CEDC90F6246BCE5D00798733 /* door@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEDC90AC246BC84400798733 /* ViewController.swift in Sources */,
+				CEDC90AC246BC84400798733 /* Bar01VC.swift in Sources */,
 				CEDC90A8246BC84400798733 /* AppDelegate.swift in Sources */,
 				CEDC90AA246BC84400798733 /* SceneDelegate.swift in Sources */,
 			);
