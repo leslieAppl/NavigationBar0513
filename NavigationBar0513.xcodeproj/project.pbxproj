@@ -43,6 +43,10 @@
 		CEDC9100246BCE5D00798733 /* buttonpluslandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90E2246BCE5D00798733 /* buttonpluslandscape@2x.png */; };
 		CEDC9101246BCE5D00798733 /* buttonpluslandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90E3246BCE5D00798733 /* buttonpluslandscape.png */; };
 		CEDC9102246BCE5D00798733 /* buttonpluslandscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90E4246BCE5D00798733 /* buttonpluslandscape@3x.png */; };
+		CEDC9104246BE75900798733 /* Bar02VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9103246BE75900798733 /* Bar02VC.swift */; };
+		CEDC9106246BE77100798733 /* Bar03VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9105246BE77100798733 /* Bar03VC.swift */; };
+		CEDC9108246BE87700798733 /* Bar02B.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9107246BE87700798733 /* Bar02B.swift */; };
+		CEDC910A246BE89100798733 /* Bar03B.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9109246BE89000798733 /* Bar03B.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +88,10 @@
 		CEDC90E2246BCE5D00798733 /* buttonpluslandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonpluslandscape@2x.png"; sourceTree = "<group>"; };
 		CEDC90E3246BCE5D00798733 /* buttonpluslandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonpluslandscape.png; sourceTree = "<group>"; };
 		CEDC90E4246BCE5D00798733 /* buttonpluslandscape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonpluslandscape@3x.png"; sourceTree = "<group>"; };
+		CEDC9103246BE75900798733 /* Bar02VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar02VC.swift; sourceTree = "<group>"; };
+		CEDC9105246BE77100798733 /* Bar03VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar03VC.swift; sourceTree = "<group>"; };
+		CEDC9107246BE87700798733 /* Bar02B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar02B.swift; sourceTree = "<group>"; };
+		CEDC9109246BE89000798733 /* Bar03B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar03B.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +127,10 @@
 				CEDC90A7246BC84400798733 /* AppDelegate.swift */,
 				CEDC90A9246BC84400798733 /* SceneDelegate.swift */,
 				CEDC90AB246BC84400798733 /* Bar01VC.swift */,
+				CEDC9103246BE75900798733 /* Bar02VC.swift */,
+				CEDC9107246BE87700798733 /* Bar02B.swift */,
+				CEDC9105246BE77100798733 /* Bar03VC.swift */,
+				CEDC9109246BE89000798733 /* Bar03B.swift */,
 				CEDC90AD246BC84400798733 /* Main.storyboard */,
 				CEDC90B0246BC84600798733 /* Assets.xcassets */,
 				CEDC90D5246BCE5C00798733 /* backgroundbar */,
@@ -338,9 +350,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDC910A246BE89100798733 /* Bar03B.swift in Sources */,
+				CEDC9108246BE87700798733 /* Bar02B.swift in Sources */,
+				CEDC9104246BE75900798733 /* Bar02VC.swift in Sources */,
 				CEDC90AC246BC84400798733 /* Bar01VC.swift in Sources */,
 				CEDC90A8246BC84400798733 /* AppDelegate.swift in Sources */,
 				CEDC90AA246BC84400798733 /* SceneDelegate.swift in Sources */,
+				CEDC9106246BE77100798733 /* Bar03VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
