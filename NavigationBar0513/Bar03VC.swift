@@ -40,6 +40,9 @@ class Bar03VC: UIViewController {
         button.title = "Close"
         item.backBarButtonItem = button
         
+//Showing large titles
+        bar.prefersLargeTitles = true
+
     }
     
     @objc func printMessage() {
