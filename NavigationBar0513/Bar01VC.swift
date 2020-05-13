@@ -9,7 +9,7 @@
 import UIKit
 
 class Bar01VC: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -39,11 +39,41 @@ class Bar01VC: UIViewController {
         let button = UIBarButtonItem()
         button.title = "Close"
         item.backBarButtonItem = button
+
+//Configuring the Toolbar from the view controller
+        nav.isToolbarHidden = false
+        nav.toolbar.barTintColor = UIColor.gray
+        nav.toolbar.tintColor = UIColor.green
+
+//Adding Toolbar Button from code
+        var items = [UIBarButtonItem]()
+
+        //Toolbar system button
+        let systemButton = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(self.printPlay))
+        items.append(systemButton)
         
+        //Add Flexible space between buttons
+        let flexibalSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
+        items.append(flexibalSpace)
+
+        //Custom Button
+        let plainButton = UIBarButtonItem(title: "Pause", style: .plain, target: self, action: #selector(self.printPause))
+        items.append(plainButton)
+
+        self.toolbarItems = items //Display toolbar items.
     }
 
     @objc func printMessage() {
         print("Message")
     }
+    
+    @objc func printPlay() {
+        print("Play")
+    }
+    
+    @objc func printPause() {
+        print("Pause")
+    }
+
 }
 

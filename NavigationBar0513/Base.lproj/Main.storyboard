@@ -45,10 +45,10 @@
             </objects>
             <point key="canvasLocation" x="1542.0289855072465" y="126.5625"/>
         </scene>
-        <!--View Controller-->
+        <!--Bar01B-->
         <scene sceneID="hGi-mj-xPQ">
             <objects>
-                <viewController id="sCw-yv-Htc" sceneMemberID="viewController">
+                <viewController id="sCw-yv-Htc" customClass="Bar01B" customModule="NavigationBar0513" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fGv-vb-0yg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,15 +59,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l1q-Jr-2xp">
+                                <rect key="frame" x="0.0" y="764" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem title="Play" id="IpO-ZR-hYI"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="h3h-i0-zHA" firstAttribute="centerX" secondItem="fGv-vb-0yg" secondAttribute="centerX" id="DUM-Kx-mVa"/>
+                            <constraint firstItem="l1q-Jr-2xp" firstAttribute="leading" secondItem="4Wc-V7-s3M" secondAttribute="leading" id="m8c-Pd-UdM"/>
+                            <constraint firstItem="l1q-Jr-2xp" firstAttribute="bottom" secondItem="4Wc-V7-s3M" secondAttribute="bottom" id="phX-EN-462"/>
+                            <constraint firstItem="l1q-Jr-2xp" firstAttribute="trailing" secondItem="4Wc-V7-s3M" secondAttribute="trailing" id="rAI-o8-GIx"/>
                             <constraint firstItem="h3h-i0-zHA" firstAttribute="top" secondItem="4Wc-V7-s3M" secondAttribute="top" constant="40" id="u7v-vX-1u7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4Wc-V7-s3M"/>
                     </view>
                     <navigationItem key="navigationItem" id="UOW-16-Sfc"/>
+                    <connections>
+                        <outlet property="myToolBar" destination="l1q-Jr-2xp" id="WAG-9p-DDe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nqi-Bk-Eh3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
