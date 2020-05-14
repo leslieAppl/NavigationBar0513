@@ -9,11 +9,15 @@
 import UIKit
 
 class Bar01VC: UIViewController {
-    
+//viewDidLoad() method will be executed only once after the view is loaded in memory,
+//and any change performed by the user in another view will not be reflected on the screen later.
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+//viewWillAppear() method is executed every time the view is about to be shown on the screen.
+    override func viewWillAppear(_ animated: Bool) {
         
-//Configuring the navigation bar and its items
+        //Configuring the navigation bar and its items
         let nav = navigationController!
         nav.hidesBarsOnSwipe = true
         let bar = nav.navigationBar
@@ -34,20 +38,20 @@ class Bar01VC: UIViewController {
         let imageLandscape = UIImage(named: "buttonpluslandscape")
         let rightButton = UIBarButtonItem(image: imagePortrait, landscapeImagePhone: imageLandscape, style: .plain, target: self, action: #selector(self.printMessage))
         item.rightBarButtonItems = [rightButton]
-
-//Configuring back bar button item
+        
+        //Configuring back bar button item
         let button = UIBarButtonItem()
         button.title = "Close"
         item.backBarButtonItem = button
-
-//Configuring the Toolbar from the view controller
+        
+        //Configuring the Toolbar from the view controller
         nav.isToolbarHidden = false
         nav.toolbar.barTintColor = UIColor.gray
         nav.toolbar.tintColor = UIColor.green
-
-//Adding Toolbar Button from code
+        
+        //Adding Toolbar Button from code
         var items = [UIBarButtonItem]()
-
+        
         //Toolbar system button
         let systemButton = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(self.printPlay))
         items.append(systemButton)
@@ -55,14 +59,14 @@ class Bar01VC: UIViewController {
         //Add Flexible space between buttons
         let flexibalSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
         items.append(flexibalSpace)
-
+        
         //Custom Button
         let plainButton = UIBarButtonItem(title: "Pause", style: .plain, target: self, action: #selector(self.printPause))
         items.append(plainButton)
-
+        
         self.toolbarItems = items //Display toolbar items.
     }
-
+        
     @objc func printMessage() {
         print("Message")
     }
@@ -74,6 +78,6 @@ class Bar01VC: UIViewController {
     @objc func printPause() {
         print("Pause")
     }
-
+    
 }
 

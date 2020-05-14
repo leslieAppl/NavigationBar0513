@@ -15,6 +15,8 @@ class Bar01B: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationController?.isToolbarHidden = true
+        
 //Configuring the Toolbar from the view controller
         myToolBar.setBackgroundImage(UIImage(named: "backgroundbar"), forToolbarPosition: .bottom, barMetrics: .default)
         myToolBar.tintColor = UIColor.white
